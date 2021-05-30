@@ -1,0 +1,33 @@
+{
+  "name": "blog_imki123_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src/ src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "6.0.3",
+    "@koa/cors": "3.1.0",
+    "axios": "0.20.0",
+    "bcrypt": "5.0.0",
+    "dotenv": "8.2.0",
+    "eslint-config-prettier": "6.11.0",
+    "esm": "3.2.25",
+    "joi": "17.2.1",
+    "jsonwebtoken": "8.5.1",
+    "koa": "2.13.0",
+    "koa-bodyparser": "4.3.0",
+    "koa-router": "9.4.0",
+    "mongoose": "5.10.2",
+    "nodemon": "2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "7.8.1"
+  }
+}
